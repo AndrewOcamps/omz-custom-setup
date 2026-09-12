@@ -17,9 +17,6 @@ plugins=(git zsh-completions zsh-autosuggestions zsh-syntax-highlighting fzf)
 # Add your custom aliases here
 # alias example="echo 'Hello World'"
 
-# Added by Antigravity CLI installer
-export PATH="/Users/gocampos/.local/bin:$PATH"
-
 # FZF Preview configuration
 export FZF_CTRL_T_OPTS="--preview 'bat --color=always --style=numbers --line-range=:200 {}' 2>/dev/null --preview-window=right:60%"
 export FZF_CTRL_R_OPTS="--preview 'echo {}' --preview-window=down:30%:wrap"
